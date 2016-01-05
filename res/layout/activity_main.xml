@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical" >  
+  	
+  	<FrameLayout  
+        android:id="@+id/content"  
+        android:layout_width="match_parent"  
+        android:layout_height="0dp"  
+        android:layout_weight="1" >  
+    </FrameLayout>  
+  	
+  	<LinearLayout  
+        android:layout_width="match_parent"  
+        android:layout_height="60dp"  
+        android:background="#FFFFFF" >  
+  
+        <RelativeLayout  
+            android:id="@+id/main_recorder_layout"  
+            android:layout_width="0dp"  
+            android:layout_height="match_parent"  
+            android:layout_weight="1" >  
+  
+            <LinearLayout  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_centerVertical="true"  
+                android:orientation="vertical" >  
+  
+                <ImageView  
+                    android:id="@+id/recorder_image"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:src="@drawable/video" />  
+  
+                <TextView  
+                    android:id="@+id/recorder_text"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:text="@string/main_recorder"  
+                    android:textColor="#7597B3" />  
+            </LinearLayout>  
+        </RelativeLayout>  
+        
+        <RelativeLayout  
+            android:id="@+id/main_live_layout"  
+            android:layout_width="0dp"  
+            android:layout_height="match_parent"  
+            android:layout_weight="1" >  
+  
+            <LinearLayout  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_centerVertical="true"  
+                android:orientation="vertical" >  
+  
+                <ImageView  
+                    android:id="@+id/live_image"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:src="@drawable/view" />  
+  
+                <TextView  
+                    android:id="@+id/live_text"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:text="@string/main_live"  
+                    android:textColor="#7597B3" />  
+            </LinearLayout>  
+        </RelativeLayout>  
+        
+        
+        <RelativeLayout  
+            android:id="@+id/main_setting_layout"  
+            android:layout_width="0dp"  
+            android:layout_height="match_parent"  
+            android:layout_weight="1" >  
+  
+            <LinearLayout  
+                android:layout_width="match_parent"  
+                android:layout_height="wrap_content"  
+                android:layout_centerVertical="true"  
+                android:orientation="vertical" >  
+  
+                <ImageView  
+                    android:id="@+id/setting_image"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:src="@drawable/setting" />  
+  
+                <TextView  
+                    android:id="@+id/setting_text"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:text="@string/main_setting"  
+                    android:textColor="#7597B3" />  
+            </LinearLayout>  
+        </RelativeLayout>  
+                
+        
+  </LinearLayout>
+</LinearLayout>  

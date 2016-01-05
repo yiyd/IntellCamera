@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Recorder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string> 
+    <string name="main_recorder">录像</string>  
+    <string name="main_live">发现</string>  
+    <string name="main_setting">设置</string>  
+	<string name="setting_upload">允许上传（WiFi）</string>
+	<string name="setting_live">允许直播</string>
+	<string name="setting_on">开</string>
+	<string name="setting_off">关</string>
+	<string name="setting_ip">点击设置网络地址</string>
+	<string name="dialog_title_ip">IP设置</string>
+	<string name="dialog_cancel">取消</string>
+	<string name="dialog_confirm">确认</string>
+	<string name="dialog_title_username">昵称设置(输入字母或数字)</string>
+	<string name="index_description">欢迎使用！</string>
+	<string name="setting_username">点击设置昵称</string>
+</resources>
